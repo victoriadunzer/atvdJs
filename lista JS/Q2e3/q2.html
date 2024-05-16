@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>2</title>
+        <script src="q2-3.js"></script>
+    </head>
+    <body>
+        <h2>Cálculo de salário</h2>
+        <label for="nomeFuncionario">Digite o nome do funcionario:</label>
+        <input type="name" name="nomeFuncionario" id="nomeFuncionario">
+        <br><br>
+        <label for="salarioBruto">Digite seu salario bruto:</label>
+        <input type="number" name="salarioBruto" id="salarioBruto">
+        <br><br>
+        <button type="button" onclick="calcularINSS(); calcularSalarioLiquido();calcularFolhaPagamento()">Confirmar</button>
+
+        <div>
+            <p id="mostrarNome"></p>
+            <p id="mostrarSB"></p>
+            <p id="mostrarINSS"></p>
+            <p id="mostrarSL"></p>
+        </div>
+    </body>
+    
+</html>
